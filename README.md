@@ -18,7 +18,9 @@ make sure is it is executable 'chmod +x em.py'
 
 Configure crontab: crontab -e
 at the bottom of the file add the following:
+
 0 */6 * * * /opt/em/em.py
+
 55 23 * * * /opt/em/em.py
 
 Save the file, now the cronjob will run every 6 hrs, and 2355hrs.
